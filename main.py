@@ -44,10 +44,10 @@ with tab1:
                 show_alert = False
 
         elif show_alert := True:
-            st.error("No URLS found")
+            st.error("No URLS  found")
 
 with tab2:
-    st.subheader("Available Websites")
+    st.subheader("Available  Websites")
     st.table(__avl_website__)
 
 
